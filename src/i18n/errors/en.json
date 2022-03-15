@@ -309,5 +309,33 @@
   "0": {
     "message": "Undefined error",
     "errorCode": 500
+  },
+  "880001": {
+    "message": "Ticket Code invalid",
+    "errorCode": 404
+  },
+  "880002": {
+    "message": "Identification invalid",
+    "errorCode": 404
+  },
+  "880003": {
+    "message": "Badge Serial invalid",
+    "errorCode": 404
+  },
+  "880004": {
+    "message": "Merch invalid",
+    "errorCode": 404
+  },
+  "880101": {
+    "message": "Ticket not found",
+    "errorCode": 404
+  },
+  "880102": {
+    "message": "Identification not set",
+    "errorCode": 404
+  },
+  "880103": {
+    "message": "Merch not set",
+    "errorCode": 404
   }
 }
