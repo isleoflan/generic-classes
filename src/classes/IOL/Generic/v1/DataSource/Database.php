@@ -131,6 +131,7 @@ class Database extends MysqliDb
         */
 
         APIResponse::getInstance()->addData('err', $this->getLastError());
+        APIResponse::getInstance()->addData('q', $this->getLastQuery());
         APIResponse::getInstance()->addError(999102)->render();
     }
 }
