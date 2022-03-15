@@ -15,7 +15,7 @@ class File
     protected function __construct()
     {
         $basePath = __DIR__;
-        while (!file_exists($basePath . '/classes')) {
+        while (!file_exists($basePath . '/vendor')) {
             $basePath = substr($basePath, 0, strrpos($basePath, '/'));
         }
         $this->basePath = $basePath;
